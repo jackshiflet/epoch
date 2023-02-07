@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Epoch | Vehicles</title>
+  <link rel="icon" href="logo.png">
+  <link rel="stylesheet" href="index.css">
+  <script type="text/javascript" src="vehicles.js"></script>
+</head>
+<body>
+<div id="sidebar">
+  <a id="side-menu-exit-icon" onclick="closeSideBar()" style="text-align: right">&#10005;</a>
+  <ul id="side-menu-list">
+    <li class="side-menu-item-style">
+      <a href="index.html" class="side-menu-item-style-link">
+        <div class="side-menu-item-style-link-button">
+          <p style="padding-top: 1vh">HOME</p>
+        </div>
+      </a>
+    </li>
+    <li class="side-menu-item-style">
+      <a href="https://www.spacex.com/media/falcon_users_guide_042020.pdf" class="side-menu-item-style-link" target="_blank">
+        <div class="side-menu-item-style-link-button">
+          <p style="padding-top: 1vh"><small>DRAGON 2 GUIDE</small></p>
+        </div>
+      </a>
+    </li>
+  </ul>
+</div>
+<div id="main">
+  <div class="body-section">
+    <div id="navigation" style="z-index: 1">
+
+      <div>
+        <a href="index.html" class="logo-item"><img src="name.png" class="logo-style"></a>
+      </div>
+
+      <ul class="nav-links">
+        <li class="nav-item"><a href="about2.html" class="nav-item-style">ABOUT</a></li>
+        <li class="nav-item"><a href="launch.html" class="nav-item-style">LAUNCH</a></li>
+        <li class="nav-item"><a href="recovery.html" class="nav-item-style">RECOVERY</a></li>
+        <li class="nav-item"><a href="vehicles.html" class="nav-item-style">VEHICLES</a></li>
+        <li class="nav-item"><a href="safety.html" class="nav-item-style">SAFETY</a></li>
+      </ul>
+
+      <div class="top-right-links">
+        <a href="shop.html" class=nav-item-style>SHOP</a>
+        <div class="side-bar-open-style" onclick="openSideBar()">
+          <div id="side-menu-icon">
+            <img src="logo.png" id="side-menu-icon-bottom" >
+            <img src="unfired-logo.png" id="side-menu-icon-top">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="filter-object" onclick="closeSideBar()"></div>
+
+
+  <div class="body-section" style="justify-content: center; z-index: -1" >
+    <img src="vehicle-1.jpeg" id="background-img-1" class="background-img" style="image-resolution: from-image">
+    <p class="body-text" style="align-self: center" id="background-img-text-1">VEHICLES</p>
+  </div>
+  <div class="body-section" style="justify-content: center; z-index: -1" >
+    <img src="vehicle.png" id="background-img-2" class="background-img" style="image-resolution: from-image">
+    <p class="body-text" style="align-self: center" id="background-img-text-2"></p>
+  </div>
+  <div class="body-section" style="justify-content: center; z-index: -1" >
+    <img src="blank.png" id="background-img-3" class="background-img" style="image-resolution: from-image">
+    <p class="body-text" style="align-self: center; margin-bottom: 40vw" id="background-img-text-3">DRAGON 2</p>
+    <p class="body-text" style="align-self: center; left: 2vw; font-size: 2vw; margin-bottom: -10vw" id="background-img-text-6">7 passengers<br><br>only private spacecraft capablt of <br>leaving Earth's orbit<br><br>state of the art control systems</p>
+    <p class="body-text" style="align-self: center; right: 2vw; font-size: 2vw; margin-bottom: -10vw; text-align: right" id="background-img-text-7">low cost and reusable<br><br>heatshield for reentering Earth's orbit<br><br>parachutes for splashdown</p>
+
+  </div>
+  <div class="body-section" style="justify-content: center; z-index: -1" >
+    <img src="vehicle-3.jpeg" id="background-img-4" class="background-img" style="image-resolution: from-image">
+    <p class="body-text" style="align-self: center" id="background-img-text-4"></p>
+  </div>
+  <div class="body-section" style="justify-content: center; z-index: -1" >
+    <img src="vehicle-4.jpeg" id="background-img-5" class="background-img" style="image-resolution: from-image">
+    <p class="body-text" style="align-self: center" id="background-img-text-5"></p>
+  </div>
+
+
+  <div class="base-bar">
+    <p class="base-bar-text">EPOCH © 2023</p>
+  </div>
+</div>
+</body>
+</html>
